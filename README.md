@@ -35,3 +35,9 @@ Example Usage
 2. Power on the ESP32 connected to the sensors.
 3. Open a web browser and navigate to the server's IP address as mentioned earlier.
 4. Observe the real-time updates for temperature, humidity, and air quality on the web interface.
+
+diagram circuit 
+circuit_diagram.jpg
+
+
+Double-check that all connections between the environmental sensors (DHT22 and MQ135) and the ESP32 microcontroller are secure. Pay close attention to the power source (VIN pin) to prevent any malfunctions.
