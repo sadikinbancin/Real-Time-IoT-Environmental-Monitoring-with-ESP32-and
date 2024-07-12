@@ -3,7 +3,7 @@ This repository project builds an Internet of Things (IoT) system for real-time 
 ## System Components
 
 • ESP32 Microcontroller:Acts as the core device, collecting sensor data and transmitting it to the server over a network.
-• Environmental Sensors:
+* Environmental Sensors:
 • DHT22 Sensor: Measures temperature and humidity levels in the environment.
 • MQ135 Sensor: Monitors air quality by detecting the presence of various gases.
 • Flask Server: Receives data from the ESP32, processes it, and presents it in a user-friendly format on a web page. Additionally, it utilizes long polling to maintain real-time data updates on the client side (web browser).
