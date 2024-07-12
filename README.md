@@ -1,4 +1,4 @@
-# This repository project builds an Internet of Things (IoT) system for real-time environmental monitoring. It utilizes an ESP32 microcontroller to gather data from various sensors and transmit it to a server running the Flask web framework. The server then processes the received data, displays it on a web interface, and employs long polling to ensure continuous updates.
+This repository project builds an Internet of Things (IoT) system for real-time environmental monitoring. It utilizes an ESP32 microcontroller to gather data from various sensors and transmit it to a server running the Flask web framework. The server then processes the received data, displays it on a web interface, and employs long polling to ensure continuous updates.
 
 ## System Components
 
@@ -36,8 +36,7 @@
 3. Open a web browser and navigate to the server's IP address as mentioned earlier.
 4. Observe the real-time updates for temperature, humidity, and air quality on the web interface.
 
-##diagram circuit 
-
+## diagram circuit 
 ![alt text](https://github.com/sadikinbancin/Real-Time-IoT-Environmental-Monitoring-with-ESP32-and/blob/main/circuit_diagram.jpg?raw=true)
 
 Double-check that all connections between the environmental sensors (DHT22 and MQ135) and the ESP32 microcontroller are secure. Pay close attention to the power source (VIN pin) to prevent any malfunctions.
