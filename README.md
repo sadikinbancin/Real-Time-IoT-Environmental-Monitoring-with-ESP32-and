@@ -10,7 +10,7 @@ This repository project builds an Internet of Things (IoT) system for real-time 
 
 ## Project Files
 
-* ESP32 Code (SIC_PROJECT_1.ino): This Arduino sketch defines the program running on the ESP32. It handles sensor readings, data formatting, and communication with the Flask server through HTTP requests.
+* ESP32 Code (SIC_PROJECT.ino): This Arduino sketch defines the program running on the ESP32. It handles sensor readings, data formatting, and communication with the Flask server through HTTP requests.
 * Flask Server Script (main.py): Written in Python, this script manages the server-side functionality. It receives data from the ESP32, stores it for potential analysis, and serves a web page that displays the real-time environmental data.
 * Circuit Diagram (circuit_diagram.png): This visual representation illustrates the physical connections between the sensors and the ESP32 microcontroller.
 
