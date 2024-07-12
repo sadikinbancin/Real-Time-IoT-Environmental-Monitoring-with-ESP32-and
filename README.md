@@ -4,15 +4,15 @@ This repository project builds an Internet of Things (IoT) system for real-time 
 
 1. ESP32 Microcontroller:Acts as the core device, collecting sensor data and transmitting it to the server over a network.
 2. Environmental Sensors:
-- DHT22 Sensor: Measures temperature and humidity levels in the environment.
-• MQ135 Sensor: Monitors air quality by detecting the presence of various gases.
+* DHT22 Sensor: Measures temperature and humidity levels in the environment.
+* MQ135 Sensor: Monitors air quality by detecting the presence of various gases.
 * Flask Server: Receives data from the ESP32, processes it, and presents it in a user-friendly format on a web page. Additionally, it utilizes long polling to maintain real-time data updates on the client side (web browser).
 
 ## Project Files
 
-• ESP32 Code (SIC_PROJECT_1.ino): This Arduino sketch defines the program running on the ESP32. It handles sensor readings, data formatting, and communication with the Flask server through HTTP requests.
-• Flask Server Script (main.py): Written in Python, this script manages the server-side functionality. It receives data from the ESP32, stores it for potential analysis, and serves a web page that displays the real-time environmental data.
-• Circuit Diagram (circuit_diagram.png): This visual representation illustrates the physical connections between the sensors and the ESP32 microcontroller.
+* ESP32 Code (SIC_PROJECT_1.ino): This Arduino sketch defines the program running on the ESP32. It handles sensor readings, data formatting, and communication with the Flask server through HTTP requests.
+* Flask Server Script (main.py): Written in Python, this script manages the server-side functionality. It receives data from the ESP32, stores it for potential analysis, and serves a web page that displays the real-time environmental data.
+* Circuit Diagram (circuit_diagram.png): This visual representation illustrates the physical connections between the sensors and the ESP32 microcontroller.
 
 ## Setting Up the Project
 
